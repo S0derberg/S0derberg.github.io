@@ -237,3 +237,7 @@ a {
 .square-button-active {
 	opacity: 1.0;
 }
+
+img {
+	border: none;
+}
