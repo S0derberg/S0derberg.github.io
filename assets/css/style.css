@@ -124,7 +124,7 @@ body, html {
 	margin: 40 auto;
 	padding: 15px;
 	position: relative;
-	background: white;
+	background: rgba(0,0,0,0);
 	transition-duration: 50ms;
 }
 
