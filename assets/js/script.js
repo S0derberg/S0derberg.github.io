@@ -4,7 +4,7 @@ $(document).ready(function() {
 
 	$(window).scroll(function() {
         var scrolled = $(window).scrollTop();
-        $('#top-pic').css("top", -(scrolled * 0.2) + "px");
+        $('.top-pic').css("top", - (scrolled * 0.5) + "px");
         if (scrolled > nav_height) {
             $('#nav-bar').css('position', 'fixed');
         	$('#nav-bar').addClass('navbar-active');
