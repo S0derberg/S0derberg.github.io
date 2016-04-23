@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<title>Ambient</title>
+		<link rel="icon" type="image/ico" href="assets/icon.ico" />
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<script src="assets/js/gen.js"></script>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  		<script src="assets/js/simple-slider.js"></script>
+  		<link href="assets/css/simple-slider.css" rel="stylesheet" type="text/css" />
+  		<link href="assets/css/simple-slider-volume.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<body>
+		<div id="background-overlay">
+			<img id="background">
+		</div>
+		<script>
+			document.getElementById('background').src='assets/Ambient demo1.jpg';
+		</script>
+		<div id="container">
+			<div id="title">Ambient</div>
+			<div id="description">Background music to relax.</div>
+			<div id="home-description">
+				<p id="home-text">Welcome to Ambient.  Select an option below to get the ambience started.</p>
+			</div>
+		</div>
+		<div id="volume">
+  			<input type="range" onchange="changeVol(this.value)" max="1" min="0" step="0.01" data-slider="true" value="0.5" data-slider-highlight="true" data-slider-theme="volume">
+		</div>
+
+		<audio autoplay loop src=null></audio>
+
+		<script>
+			document.getElementById('volume').style.display = 'none';
+		</script>
+		<div id="button-container">
+			<button class="button" type="button" onclick="getAudio('assets/audio/shower.mp3'),getImage('assets/backgrounds/shower.jpg')">Shower</button>
+			<button class="button" type="button" onclick="getAudio('assets/audio/space2.mp3'),getImage('assets/backgrounds/Earth.jpg')">Space</button>
+			<button class="button" type="button" onclick="getAudio('assets/audio/beach.mp3'),getImage('assets/backgrounds/beach.jpg')">Beach</button>
+			<button class="button" type="button" onclick="getAudio('assets/audio/rainforest.mp3'),getImage('assets/backgrounds/jungle.jpg')">Rainforest</button>
+			<button class="button" type="button" onclick="getAudio('assets/audio/fireplace.mp3'),getImage('assets/backgrounds/fireplace.jpg')">Fire</button>
+			<button class="button" type="button" onclick="getAudio('assets/audio/thunder.mp3'),getImage('assets/backgrounds/thunderstorm.jpg')">Thunderstorm</button>
+			<button class="button" type="button" onclick="getAudio('assets/audio/underwater.mp3'),getImage('assets/backgrounds/underwater.jpg')">Underwater</button>
+			<button class="button" type="button" onclick="getAudio('assets/audio/fan2.mp3'),getImage('assets/backgrounds/fan.jpg')">Fan</button>
+			<button class="button" type="button" onclick="getAudio('assets/audio/rain-01.mp3'),getImage('assets/backgrounds/rain.jpg')">Rain</button>
+			<button class="button" type="button" onclick="getAudio('assets/audio/crickets.mp3'),getImage('assets/backgrounds/grassy.jpg')">Crickets</button>
+			<button class="button" type="button" onclick="getAudio('assets/audio/windy.mp3'),getImage('assets/backgrounds/Arctic_ice.jpg')">Arctic Wind</button>
+			<button class="button" type="button" onclick="getAudio('assets/audio/plane3.mp3'),getImage('assets/backgrounds/Plane.jpg')">Plane</button>
+			<button class="button" type="button" onclick="getAudio('assets/audio/clock.mp3'),getImage('assets/backgrounds/clocks.jpg')">Clock</button>
+		</div>
+
+		<div id="return-home">
+			<button class="button home" type="button" onclick="getAudio(null),getImage('assets/Ambient demo1.jpg')">Home Screen</button>
+		</div>
+
+		<script>
+			document.getElementById("return-home").style.display = 'none'
+		</script>
+
+	</body>
+
+	<footer>
+		<p>By: Duncan Frederick, Florin Langer, Sidney Oderberg.  Hacktech 2016.</p>
+	</footer>
+
+
+</html>

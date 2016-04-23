@@ -4,11 +4,13 @@
 		<link rel="stylesheet" href="assets/css/style.css">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src = "assets/js/script.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
 	</head>
 
 	<body>
 		<div id="picture-overlay">
-			<div id="picture"></div>
+			<div class="top-pic">
+			</div>
 		</div>
 
 		<div id="nav-bar">
@@ -18,7 +20,30 @@
 			<div class="nav-button projects" onclick="location.href='activities.html'">Activities</div>
 		</div>
 
-		<div class="content">
+		<div class="content projects">
+			<div class="content-box projects">
+				<div id="title">Ambient</div>
+				<br>
+				<div class="info ambient">Made at HackTech 2016 in just 24 hours, it's a webapp that plays relaxing background music.  There are many different themes and each one has a corresponding background picture to enjoy while you listen.  Or just keep Ambient on in the background while you work!  Check it out <a href="assets/Ambient/index.html" target="_blank">here</a>.
+				</div>
+				<div id="ambient-container">
+					<a href="assets/Ambient/index.html" target="_blank">
+						<img id="ambient-pic" src="assets/img/Ambient.png">
+					</a>
+				</div>
+			</div>
+			<div class="content-box projects">
+				<div id="title">Neural Network</div>
+				<br>
+				<div class="info">For my machine learning class, we had to build our own neural networks from scratch in Python.  They are trained and test on the MNIST digit dataset.  After spending over an hour training on 60,000 images, my neural net was achieving a 0.94 percent accuracy rate on the test set!
+				</div>
+			</div>
+			<div class="content-box projects">
+				<div id="title">Void</div>
+				<br>
+				<div class="info">After inventing the playing card game Void in high school, I decided to code it up once I had learned enough.  First I made it in Python, and then rewrote it in Java.  Right now the program version of it is just text-based (and played on the command line).  Once I know enough about creating graphical interfaces, I'll add that functionality and put it here for everyone to play.  For now, feel free to <a href="assets/void.html" target="_blank">read up on the rules</a>, grab a deck of cards, and enjoy!
+				</div>
+			</div>
 		</div>
 
 
