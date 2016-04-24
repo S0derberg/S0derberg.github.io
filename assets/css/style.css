@@ -267,7 +267,7 @@ img {
 }
 
 @media(max-height: 600px) {
-	.content {
+	.content.home {
 		height: 550px;
 	}
 }
