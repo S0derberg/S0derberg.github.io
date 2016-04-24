@@ -265,3 +265,9 @@ img {
 		margin-top: -15px;
 	}
 }
+
+@media(max-height: 600px) {
+	.content {
+		height: 550px;
+	}
+}
