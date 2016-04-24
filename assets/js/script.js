@@ -32,6 +32,17 @@ $(document).ready(function() {
         $('.square-button.gh').removeClass('square-button-active');
     });
 
+    $('.content-box.projects').hover(function () {
+        $(this).css('border', 'solid #8600b3 3px');
+    }, function () {
+        $(this).css('border', 'solid #8600b3 1px');
+    });
+
+    $('.content-box.act').hover(function () {
+        $(this).css('border', 'solid #e68a00 3px');
+    }, function () {
+        $(this).css('border', 'solid #e68a00 1px');
+    });
 
 
 
