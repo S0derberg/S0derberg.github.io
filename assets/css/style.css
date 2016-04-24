@@ -241,3 +241,27 @@ a {
 img {
 	border: none;
 }
+
+@media(max-width: 1270px) {
+	.content-box {
+		width: 900px;
+	}
+
+	#about-me {
+		width: 300px;
+	}
+
+	#pic {
+		width: 300px;
+		margin-left: 100px;
+	}
+
+	#link-box {
+		margin-left: 575px;
+	}
+
+	.info.ambient {
+		width: 600px;
+		margin-top: -15px;
+	}
+}
