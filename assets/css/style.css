@@ -92,8 +92,8 @@ body, html {
 	float: left;
 	width: 65px;
 	height: 30px;
-	border-left: solid #c2c2a3 0.5px;
-	border-right: solid #c2c2a3 0.5px;
+	border-left: solid #c2c2a3 1px;
+	border-right: solid #c2c2a3 1px;
 	cursor: pointer;
 }
 
@@ -194,7 +194,7 @@ a {
 	margin-top: -200px;
 	transform: scale(0.7, 0.7);
 	-ms-transform: scale(0.7, 0.7);
-	-webkit-transform: scale(0.7, 0.);
+	-webkit-transform: scale(0.7, 0.7);
 	margin-left: calc(50% - 620px);
 	border: solid #c2c2a3 1px;
 }
