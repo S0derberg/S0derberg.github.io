@@ -1,2 +1,2 @@
-# S0derberg.github.io
+# sidoderberg.github.io
 Personal Website
