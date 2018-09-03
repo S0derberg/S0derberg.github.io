@@ -8,9 +8,11 @@ $(document).ready(function() {
         if (scrolled > nav_height) {
             $('#nav-bar').css('position', 'fixed');
         	$('#nav-bar').addClass('navbar-active');
+            $('.content').css('padding-top', '40px');
         } else {
         	$('#nav-bar').removeClass('navbar-active');
             $('#nav-bar').css('position', 'relative');
+            $('.content').css('padding-top', '0px');
         }
     });
 
@@ -43,9 +45,4 @@ $(document).ready(function() {
     }, function () {
         $(this).css('border', 'solid #e68a00 1px');
     });
-
-
-
-
-
 });

@@ -140,13 +140,13 @@ body, html {
 	border: solid #e68a00 3px;
 }
 
-#ambient-container {
+.pic-container {
 	display: inline-block;
 	margin-left: 50px;
 	margin-top: -30px;
 }
 
-#ambient-pic {
+.project-pic {
 	border-radius: 10%;
 }
 
@@ -154,7 +154,7 @@ a {
 	text-decoration: none;
 }
 
-.info.ambient {
+.info.pic {
 	width: 700px;
 	float: left;
 }
